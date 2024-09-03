@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Poppins;
+    margin: 0;
+    font-size: 16px;
+    background-color: #feffef;
+}
+header{
+    width: auto;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 80px 1fr calc(var(--w-image) * var(--calculate));
+    grid-template-rows:80px;
+    position:relative;
+} 
+:root{
+    --border-color: #fff5;
+    --w-image: 400px;
+    --calculate: calc(3 / 2);
+}
+.dis{
+    width: auto;
+    height: 20px;
+    background-color: aquamarine;
+}
+.m-0{
+    margin-top: -10px;
+    margin-left: -30px;
+}
+.m-1{
+    margin-top: 60px;
+    margin-left: 520px;
+}
+.m-1 ul ,li{
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+}
+.m-1 a{
+    text-decoration: none;
+    color:black
+}
+.m-2{
+    gap: 30px;
+    margin-top: 70px;
+    margin-left: 400px;
+    display: flex;
+}
